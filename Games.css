@@ -1,0 +1,138 @@
+/* .gamesinnav,
+.homeinnav,
+.supportinnav{
+    margin-top: -100px;
+} */
+.navshape,
+.gamesinnav,
+.homeinnav,
+.supportinnav{
+    z-index: 1;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.gamesinnav:hover,
+.homeinnav:hover,
+.supportinnav:hover{
+    background-color: blue;
+    text-shadow: -1px 1px 5px yellow;
+    transition: background-color 0.4s ease-in-out;
+    transition: text-shadow 0.1s ease-in-out;
+    cursor: pointer;
+}
+.navshape{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    height: 50px;
+    width: 1521px;
+    border-bottom: 2px solid white;
+    border-radius: 25px;
+}
+.homeinnav{
+    position: fixed;
+    color: white;
+    margin-left: 5px;
+    margin-top: -282px;
+    font-size: 20px;
+    padding: 2px 16px;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+.supportinnav{
+    position: fixed;
+    color: white;
+    margin-left: 365px;
+    margin-top: -282px;
+    font-size: 20px;
+    padding: 2px 16px;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+.gamesinnav{
+    position: fixed;
+    color: white;
+    margin-left: 100px;
+    margin-left: 185px;
+    margin-top: -282px;
+    font-size: 20px;
+    padding: 2px 16px;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+.shape1{
+    background-color: whitesmoke;
+    height: 800px;
+    width: 230px;
+    /* border: 2px solid darkblue; */
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+}
+.shape2{
+    background-color: whitesmoke;
+    height: 100px;
+    width: 1500px;
+    /* border: 2px solid darkblue; */
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+}
+body{
+    background-color: darkblue;
+}
+.title{
+    font-size: 125px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 290px;
+    margin-bottom: 380px;
+}
+img{
+    height: 200px;
+    width: 264.8px;
+    position: absolute;
+    top: 950px;
+    left: 280px;
+}
+img:hover{
+    animation: grow 0.7s ease-in;
+    transform-origin: center;
+    cursor: pointer;
+}
+@keyframes grow{
+    40%{transform: scale(1.2);}
+    80%{transform: scale(1);}
+    100%{transform: scale(1);}
+}
+input[type = search]{
+    border-radius: 20px;
+    border: 1px solid black;
+    position: absolute;
+    top: 925px;
+    left: 35px;
+}
+.pricerange{
+    position: absolute;
+    top: 955px;
+    left: 35px;
+}
+.radio1{
+    position: absolute;
+    top: 1000px;
+    left: 35px;
+}
+.radio2{
+    position: absolute;
+    top: 1025px;
+    left: 35px;
+}
+.last{
+    position: absolute;
+    top: 1085px;
+    left: 35px;
+}
+.submit{
+    position: absolute;
+    top: 1225px;
+    left: 85px;
+}

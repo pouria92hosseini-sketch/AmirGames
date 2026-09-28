@@ -1,0 +1,114 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.navshape,
+.gamesinnav,
+.homeinnav,
+.supportinnav{
+    z-index: 1;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.gamesinnav:hover,
+.homeinnav:hover,
+.supportinnav:hover{
+    background-color: blue;
+    text-shadow: -1px 1px 5px yellow;
+    transition: background-color 0.4s ease-in-out;
+    transition: text-shadow 0.1s ease-in-out;
+    cursor: pointer;
+}
+.navshape{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    height: 50px;
+    width: 1521px;
+    border-bottom: 2px solid white;
+    border-radius: 25px;
+}
+.homeinnav{
+    position: fixed;
+    color: white;
+    margin-left: 5px;
+    margin-top: 1px;
+    font-size: 20px;
+    padding: 2px 16px;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+.supportinnav{
+    position: fixed;
+    color: white;
+    margin-left: 365px;
+    margin-top: 1px;
+    font-size: 20px;
+    padding: 2px 16px;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+.gamesinnav{
+    position: fixed;
+    color: white;
+    margin-left: 100px;
+    margin-left: 185px;
+    margin-top: 1px;
+    font-size: 20px;
+    padding: 2px 16px;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+.amirgame_title{
+    font-size:120px;
+    position:absolute;
+    top:150px;
+    left:220px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.page2img{
+    position: absolute;
+    top:950px;
+    left: 950px;
+    height: 600px;
+    width: auto;
+    border-radius: 20px;
+}
+.page2title{
+    position: absolute;
+    top: 1000px;
+    left: 150px;
+    font-size: 100px;
+    width: 700px;
+    color: white;
+}
+.page3text{
+    position: absolute;
+    top:2300px;
+    left: 295px;
+    font-size:110px;
+    color: white;
+}
+.page3number{
+    position: absolute;
+    top: 2500px;
+    left: 540px;
+    font-size: 75px;
+    color: white;
+}
+ /*.page3img{
+    position: absolute;
+    top: 2000px;
+    left: 625px;
+    transform: rotate(-35deg);
+} */
+.shape{
+    /* background-color: white; */
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 2800px;
+}
+body{
+    background-color: darkblue;
+}
